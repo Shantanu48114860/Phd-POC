@@ -1,0 +1,10 @@
+/ocean/projects/asc170022p/shg121/POC/GAN/WGAN-GP
+v024.ib.bridges2.psc.edu
+Sun Jul 25 02:57:42 EDT 2021
+WGAN-GP
+Traceback (most recent call last):
+  File "train.py", line 68, in <module>
+    gp = gradient_penalty(disc, real, fake, device=device)
+  File "/ocean/projects/asc170022p/shg121/POC/GAN/WGAN-GP/utils.py", line 21, in gradient_penalty
+    interpolated_images = real * epsilon + fake * (1 - epsilon)
+RuntimeError: The size of tensor a (64) must match the size of tensor b (78) at non-singleton dimension 2
