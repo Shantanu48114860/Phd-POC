@@ -26,6 +26,7 @@ def train_fn(disc_H,
     loop = tqdm(loader, leave=True)
     for idx, (zebra, horse) in enumerate(loop):
         zebra = zebra.to(config.DEVICE)
+        print(type(zebra))
         horse = horse.to(config.DEVICE)
 
         # Train Discriminators H, Z
@@ -177,8 +178,8 @@ def main():
         if config.SAVE_MODEL:
             save_checkpoint(gen_H, opt_gen, filename=config.CHECKPOINT_GEN_H)
             save_checkpoint(gen_Z, opt_gen, filename=config.CHECKPOINT_GEN_Z)
-            save_checkpoint(disc_H, opt_gen, filename=config.CHECKPOINT_CRITIC_H)
-            save_checkpoint(disc_Z, opt_gen, filename=config.CHECKPOINT_CRITIC_Z)
+            save_checkpoint(disc_H, opt_disc, filename=config.CHECKPOINT_CRITIC_H)
+            save_checkpoint(disc_Z, opt_disc, filename=config.CHECKPOINT_CRITIC_Z)
 
 
 if __name__ == '__main__':

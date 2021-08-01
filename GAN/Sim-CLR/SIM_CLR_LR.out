@@ -1,0 +1,1402 @@
+cuda
+Epoch: 0=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379, -0.0039, -0.0325, -0.0156,  0.0385, -0.0024,  0.0217,  0.0155,
+         0.0309, -0.0160], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 2.2957396507263184	 Accuracy: 0.1875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0058, -0.0310, -0.0156,  0.0385, -0.0024,  0.0217, -0.0075,
+         0.0221, -0.0387], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [0/100]	 Loss: 2.2581974970988736	 Accuracy: 0.26001602564102566
+Epoch: 1=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0058, -0.0310, -0.0156,  0.0385, -0.0024,  0.0217, -0.0075,
+         0.0221, -0.0387], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 2.215775966644287	 Accuracy: 0.390625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0165, -0.0288, -0.0156,  0.0385, -0.0024,  0.0217, -0.0292,
+         0.0109, -0.0599], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [1/100]	 Loss: 2.176800195987408	 Accuracy: 0.48878205128205127
+Epoch: 2=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0165, -0.0288, -0.0156,  0.0385, -0.0024,  0.0217, -0.0292,
+         0.0109, -0.0599], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 2.143418073654175	 Accuracy: 0.59375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0249, -0.0286, -0.0156,  0.0385, -0.0024,  0.0217, -0.0501,
+         0.0016, -0.0806], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [2/100]	 Loss: 2.100519372866704	 Accuracy: 0.5877403846153846
+Epoch: 3=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0249, -0.0286, -0.0156,  0.0385, -0.0024,  0.0217, -0.0501,
+         0.0016, -0.0806], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 2.080451726913452	 Accuracy: 0.609375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0350, -0.0250, -0.0156,  0.0385, -0.0024,  0.0217, -0.0701,
+        -0.0055, -0.1001], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [3/100]	 Loss: 2.0290531378525953	 Accuracy: 0.6422275641025641
+Epoch: 4=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0350, -0.0250, -0.0156,  0.0385, -0.0024,  0.0217, -0.0701,
+        -0.0055, -0.1001], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.9973933696746826	 Accuracy: 0.78125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0443, -0.0230, -0.0156,  0.0385, -0.0024,  0.0217, -0.0892,
+        -0.0129, -0.1193], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [4/100]	 Loss: 1.96217226370787	 Accuracy: 0.6640625
+Epoch: 5=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0443, -0.0230, -0.0156,  0.0385, -0.0024,  0.0217, -0.0892,
+        -0.0129, -0.1193], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.928229570388794	 Accuracy: 0.609375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0531, -0.0201, -0.0156,  0.0385, -0.0024,  0.0217, -0.1080,
+        -0.0204, -0.1377], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [5/100]	 Loss: 1.8997388650209477	 Accuracy: 0.6714743589743589
+Epoch: 6=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0531, -0.0201, -0.0156,  0.0385, -0.0024,  0.0217, -0.1080,
+        -0.0204, -0.1377], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.8450047969818115	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0616, -0.0180, -0.0156,  0.0385, -0.0024,  0.0217, -0.1264,
+        -0.0265, -0.1557], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [6/100]	 Loss: 1.8412925280057466	 Accuracy: 0.6724759615384616
+Epoch: 7=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0616, -0.0180, -0.0156,  0.0385, -0.0024,  0.0217, -0.1264,
+        -0.0265, -0.1557], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.821675419807434	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0708, -0.0152, -0.0156,  0.0385, -0.0024,  0.0217, -0.1441,
+        -0.0323, -0.1733], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [7/100]	 Loss: 1.7863823511661627	 Accuracy: 0.6744791666666666
+Epoch: 8=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0708, -0.0152, -0.0156,  0.0385, -0.0024,  0.0217, -0.1441,
+        -0.0323, -0.1733], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.766473650932312	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0782, -0.0127, -0.0156,  0.0385, -0.0024,  0.0217, -0.1614,
+        -0.0373, -0.1900], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [8/100]	 Loss: 1.7359326772200756	 Accuracy: 0.6738782051282052
+Epoch: 9=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0782, -0.0127, -0.0156,  0.0385, -0.0024,  0.0217, -0.1614,
+        -0.0373, -0.1900], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.7455272674560547	 Accuracy: 0.65625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0872, -0.0097, -0.0156,  0.0385, -0.0024,  0.0217, -0.1783,
+        -0.0429, -0.2063], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [9/100]	 Loss: 1.6875147987634709	 Accuracy: 0.6746794871794872
+Epoch: 10=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0872, -0.0097, -0.0156,  0.0385, -0.0024,  0.0217, -0.1783,
+        -0.0429, -0.2063], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.637981653213501	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0945, -0.0074, -0.0156,  0.0385, -0.0024,  0.0217, -0.1948,
+        -0.0475, -0.2225], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [10/100]	 Loss: 1.642181362861242	 Accuracy: 0.6760817307692307
+Epoch: 11=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.0945, -0.0074, -0.0156,  0.0385, -0.0024,  0.0217, -0.1948,
+        -0.0475, -0.2225], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.6163641214370728	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1016, -0.0035, -0.0156,  0.0385, -0.0024,  0.0217, -0.2107,
+        -0.0512, -0.2379], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [11/100]	 Loss: 1.6002080012590458	 Accuracy: 0.6744791666666666
+Epoch: 12=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1016, -0.0035, -0.0156,  0.0385, -0.0024,  0.0217, -0.2107,
+        -0.0512, -0.2379], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.560284972190857	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1095, -0.0010, -0.0156,  0.0385, -0.0024,  0.0217, -0.2265,
+        -0.0554, -0.2531], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [12/100]	 Loss: 1.560672911313864	 Accuracy: 0.6758814102564102
+Epoch: 13=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1095, -0.0010, -0.0156,  0.0385, -0.0024,  0.0217, -0.2265,
+        -0.0554, -0.2531], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.5277442932128906	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1175,  0.0027, -0.0156,  0.0385, -0.0024,  0.0217, -0.2421,
+        -0.0598, -0.2678], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [13/100]	 Loss: 1.5231833366247325	 Accuracy: 0.6768830128205128
+Epoch: 14=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1175,  0.0027, -0.0156,  0.0385, -0.0024,  0.0217, -0.2421,
+        -0.0598, -0.2678], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.566364049911499	 Accuracy: 0.5625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1246,  0.0067, -0.0156,  0.0385, -0.0024,  0.0217, -0.2572,
+        -0.0640, -0.2822], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [14/100]	 Loss: 1.4889944470845735	 Accuracy: 0.6776842948717948
+Epoch: 15=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1246,  0.0067, -0.0156,  0.0385, -0.0024,  0.0217, -0.2572,
+        -0.0640, -0.2822], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.405307650566101	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1319,  0.0099, -0.0156,  0.0385, -0.0024,  0.0217, -0.2721,
+        -0.0676, -0.2965], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [15/100]	 Loss: 1.4555167189011207	 Accuracy: 0.6774839743589743
+Epoch: 16=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1319,  0.0099, -0.0156,  0.0385, -0.0024,  0.0217, -0.2721,
+        -0.0676, -0.2965], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.4074325561523438	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1386,  0.0134, -0.0156,  0.0385, -0.0024,  0.0217, -0.2867,
+        -0.0711, -0.3099], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [16/100]	 Loss: 1.4249063302309086	 Accuracy: 0.6790865384615384
+Epoch: 17=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1386,  0.0134, -0.0156,  0.0385, -0.0024,  0.0217, -0.2867,
+        -0.0711, -0.3099], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.2905995845794678	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1464,  0.0179, -0.0156,  0.0385, -0.0024,  0.0217, -0.3015,
+        -0.0753, -0.3236], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [17/100]	 Loss: 1.3954266829368396	 Accuracy: 0.6806891025641025
+Epoch: 18=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1464,  0.0179, -0.0156,  0.0385, -0.0024,  0.0217, -0.3015,
+        -0.0753, -0.3236], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.3882031440734863	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1536,  0.0218, -0.0156,  0.0385, -0.0024,  0.0217, -0.3158,
+        -0.0775, -0.3367], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [18/100]	 Loss: 1.3672006986080072	 Accuracy: 0.680488782051282
+Epoch: 19=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1536,  0.0218, -0.0156,  0.0385, -0.0024,  0.0217, -0.3158,
+        -0.0775, -0.3367], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.3558309078216553	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1612,  0.0263, -0.0156,  0.0385, -0.0024,  0.0217, -0.3300,
+        -0.0812, -0.3497], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [19/100]	 Loss: 1.3421774063354883	 Accuracy: 0.6818910256410257
+Epoch: 20=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1612,  0.0263, -0.0156,  0.0385, -0.0024,  0.0217, -0.3300,
+        -0.0812, -0.3497], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.180885672569275	 Accuracy: 0.796875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1682,  0.0299, -0.0156,  0.0385, -0.0024,  0.0217, -0.3437,
+        -0.0856, -0.3625], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [20/100]	 Loss: 1.3177978151883833	 Accuracy: 0.6818910256410257
+Epoch: 21=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1682,  0.0299, -0.0156,  0.0385, -0.0024,  0.0217, -0.3437,
+        -0.0856, -0.3625], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.3282320499420166	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1753,  0.0347, -0.0156,  0.0385, -0.0024,  0.0217, -0.3574,
+        -0.0880, -0.3748], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [21/100]	 Loss: 1.2943709660799076	 Accuracy: 0.6832932692307693
+Epoch: 22=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1753,  0.0347, -0.0156,  0.0385, -0.0024,  0.0217, -0.3574,
+        -0.0880, -0.3748], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.3740825653076172	 Accuracy: 0.578125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1820,  0.0385, -0.0156,  0.0385, -0.0024,  0.0217, -0.3711,
+        -0.0923, -0.3871], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [22/100]	 Loss: 1.2732712855705848	 Accuracy: 0.6832932692307693
+Epoch: 23=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1820,  0.0385, -0.0156,  0.0385, -0.0024,  0.0217, -0.3711,
+        -0.0923, -0.3871], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.2306350469589233	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1899,  0.0437, -0.0156,  0.0385, -0.0024,  0.0217, -0.3841,
+        -0.0951, -0.3991], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [23/100]	 Loss: 1.2521770153290186	 Accuracy: 0.6850961538461539
+Epoch: 24=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1899,  0.0437, -0.0156,  0.0385, -0.0024,  0.0217, -0.3841,
+        -0.0951, -0.3991], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.159140706062317	 Accuracy: 0.65625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1968,  0.0479, -0.0156,  0.0385, -0.0024,  0.0217, -0.3978,
+        -0.0998, -0.4108], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [24/100]	 Loss: 1.2321766034150734	 Accuracy: 0.6860977564102564
+Epoch: 25=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.1968,  0.0479, -0.0156,  0.0385, -0.0024,  0.0217, -0.3978,
+        -0.0998, -0.4108], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1920310258865356	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2039,  0.0536, -0.0156,  0.0385, -0.0024,  0.0217, -0.4107,
+        -0.1021, -0.4227], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [25/100]	 Loss: 1.213989679629986	 Accuracy: 0.6856971153846154
+Epoch: 26=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2039,  0.0536, -0.0156,  0.0385, -0.0024,  0.0217, -0.4107,
+        -0.1021, -0.4227], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1759517192840576	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2107,  0.0572, -0.0156,  0.0385, -0.0024,  0.0217, -0.4237,
+        -0.1068, -0.4343], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [26/100]	 Loss: 1.1970103490046966	 Accuracy: 0.6856971153846154
+Epoch: 27=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2107,  0.0572, -0.0156,  0.0385, -0.0024,  0.0217, -0.4237,
+        -0.1068, -0.4343], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1970489025115967	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2174,  0.0634, -0.0156,  0.0385, -0.0024,  0.0217, -0.4364,
+        -0.1108, -0.4454], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [27/100]	 Loss: 1.1799501150082319	 Accuracy: 0.686698717948718
+Epoch: 28=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2174,  0.0634, -0.0156,  0.0385, -0.0024,  0.0217, -0.4364,
+        -0.1108, -0.4454], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.2163994312286377	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2245,  0.0679, -0.0156,  0.0385, -0.0024,  0.0217, -0.4491,
+        -0.1140, -0.4567], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [28/100]	 Loss: 1.1635630551056984	 Accuracy: 0.6887019230769231
+Epoch: 29=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2245,  0.0679, -0.0156,  0.0385, -0.0024,  0.0217, -0.4491,
+        -0.1140, -0.4567], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.2573637962341309	 Accuracy: 0.65625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2320,  0.0739, -0.0156,  0.0385, -0.0024,  0.0217, -0.4618,
+        -0.1176, -0.4677], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [29/100]	 Loss: 1.148635556300481	 Accuracy: 0.6889022435897436
+Epoch: 30=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2320,  0.0739, -0.0156,  0.0385, -0.0024,  0.0217, -0.4618,
+        -0.1176, -0.4677], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0904223918914795	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2396,  0.0793, -0.0156,  0.0385, -0.0024,  0.0217, -0.4744,
+        -0.1208, -0.4786], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [30/100]	 Loss: 1.1345076813147619	 Accuracy: 0.6893028846153846
+Epoch: 31=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2396,  0.0793, -0.0156,  0.0385, -0.0024,  0.0217, -0.4744,
+        -0.1208, -0.4786], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9820727109909058	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2459,  0.0838, -0.0156,  0.0385, -0.0024,  0.0217, -0.4869,
+        -0.1252, -0.4892], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [31/100]	 Loss: 1.1207528649232326	 Accuracy: 0.6895032051282052
+Epoch: 32=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2459,  0.0838, -0.0156,  0.0385, -0.0024,  0.0217, -0.4869,
+        -0.1252, -0.4892], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.106441617012024	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2529,  0.0906, -0.0156,  0.0385, -0.0024,  0.0217, -0.4992,
+        -0.1291, -0.4997], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [32/100]	 Loss: 1.1081674351142003	 Accuracy: 0.6907051282051282
+Epoch: 33=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2529,  0.0906, -0.0156,  0.0385, -0.0024,  0.0217, -0.4992,
+        -0.1291, -0.4997], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0257301330566406	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2602,  0.0960, -0.0156,  0.0385, -0.0024,  0.0217, -0.5115,
+        -0.1327, -0.5102], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [33/100]	 Loss: 1.095644154609778	 Accuracy: 0.6903044871794872
+Epoch: 34=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2602,  0.0960, -0.0156,  0.0385, -0.0024,  0.0217, -0.5115,
+        -0.1327, -0.5102], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9563771486282349	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2660,  0.1008, -0.0156,  0.0385, -0.0024,  0.0217, -0.5238,
+        -0.1368, -0.5207], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [34/100]	 Loss: 1.083501908259514	 Accuracy: 0.6905048076923077
+Epoch: 35=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2660,  0.1008, -0.0156,  0.0385, -0.0024,  0.0217, -0.5238,
+        -0.1368, -0.5207], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1265596151351929	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2732,  0.1071, -0.0156,  0.0385, -0.0024,  0.0217, -0.5362,
+        -0.1410, -0.5309], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [35/100]	 Loss: 1.071752245609577	 Accuracy: 0.6927083333333334
+Epoch: 36=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2732,  0.1071, -0.0156,  0.0385, -0.0024,  0.0217, -0.5362,
+        -0.1410, -0.5309], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9791155457496643	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2800,  0.1126, -0.0156,  0.0385, -0.0024,  0.0217, -0.5479,
+        -0.1445, -0.5411], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [36/100]	 Loss: 1.0608820273325994	 Accuracy: 0.6935096153846154
+Epoch: 37=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2800,  0.1126, -0.0156,  0.0385, -0.0024,  0.0217, -0.5479,
+        -0.1445, -0.5411], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1631752252578735	 Accuracy: 0.59375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2870,  0.1188, -0.0156,  0.0385, -0.0024,  0.0217, -0.5601,
+        -0.1492, -0.5510], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [37/100]	 Loss: 1.0510344214928455	 Accuracy: 0.6935096153846154
+Epoch: 38=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2870,  0.1188, -0.0156,  0.0385, -0.0024,  0.0217, -0.5601,
+        -0.1492, -0.5510], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.058414340019226	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2928,  0.1243, -0.0156,  0.0385, -0.0024,  0.0217, -0.5718,
+        -0.1524, -0.5610], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [38/100]	 Loss: 1.040291809118711	 Accuracy: 0.6953125
+Epoch: 39=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.2928,  0.1243, -0.0156,  0.0385, -0.0024,  0.0217, -0.5718,
+        -0.1524, -0.5610], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9897547364234924	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3000,  0.1308, -0.0156,  0.0385, -0.0024,  0.0217, -0.5839,
+        -0.1567, -0.5709], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [39/100]	 Loss: 1.0313357068942144	 Accuracy: 0.6963141025641025
+Epoch: 40=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3000,  0.1308, -0.0156,  0.0385, -0.0024,  0.0217, -0.5839,
+        -0.1567, -0.5709], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.012218952178955	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3058,  0.1355, -0.0156,  0.0385, -0.0024,  0.0217, -0.5954,
+        -0.1616, -0.5807], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [40/100]	 Loss: 1.0226781475238311	 Accuracy: 0.696113782051282
+Epoch: 41=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3058,  0.1355, -0.0156,  0.0385, -0.0024,  0.0217, -0.5954,
+        -0.1616, -0.5807], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.2456340789794922	 Accuracy: 0.5625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3124,  0.1418, -0.0156,  0.0385, -0.0024,  0.0217, -0.6072,
+        -0.1657, -0.5904], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [41/100]	 Loss: 1.0134500043514447	 Accuracy: 0.6959134615384616
+Epoch: 42=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3124,  0.1418, -0.0156,  0.0385, -0.0024,  0.0217, -0.6072,
+        -0.1657, -0.5904], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.01876962184906	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3194,  0.1487, -0.0156,  0.0385, -0.0024,  0.0217, -0.6185,
+        -0.1691, -0.6000], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [42/100]	 Loss: 1.0054474427149847	 Accuracy: 0.6959134615384616
+Epoch: 43=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3194,  0.1487, -0.0156,  0.0385, -0.0024,  0.0217, -0.6185,
+        -0.1691, -0.6000], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1357523202896118	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3261,  0.1552, -0.0156,  0.0385, -0.0024,  0.0217, -0.6306,
+        -0.1740, -0.6096], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [43/100]	 Loss: 0.9971205783195984	 Accuracy: 0.696113782051282
+Epoch: 44=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3261,  0.1552, -0.0156,  0.0385, -0.0024,  0.0217, -0.6306,
+        -0.1740, -0.6096], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9953726530075073	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3318,  0.1609, -0.0156,  0.0385, -0.0024,  0.0217, -0.6418,
+        -0.1782, -0.6193], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [44/100]	 Loss: 0.988679989026143	 Accuracy: 0.6977163461538461
+Epoch: 45=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3318,  0.1609, -0.0156,  0.0385, -0.0024,  0.0217, -0.6418,
+        -0.1782, -0.6193], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.001349925994873	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3383,  0.1668, -0.0156,  0.0385, -0.0024,  0.0217, -0.6532,
+        -0.1819, -0.6287], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [45/100]	 Loss: 0.9810444521598327	 Accuracy: 0.6987179487179487
+Epoch: 46=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3383,  0.1668, -0.0156,  0.0385, -0.0024,  0.0217, -0.6532,
+        -0.1819, -0.6287], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8607941269874573	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3444,  0.1724, -0.0156,  0.0385, -0.0024,  0.0217, -0.6648,
+        -0.1869, -0.6380], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [46/100]	 Loss: 0.9741277518944863	 Accuracy: 0.6995192307692307
+Epoch: 47=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3444,  0.1724, -0.0156,  0.0385, -0.0024,  0.0217, -0.6648,
+        -0.1869, -0.6380], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8857061862945557	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3520,  0.1800, -0.0156,  0.0385, -0.0024,  0.0217, -0.6765,
+        -0.1901, -0.6474], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [47/100]	 Loss: 0.9669379072311597	 Accuracy: 0.6997195512820513
+Epoch: 48=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3520,  0.1800, -0.0156,  0.0385, -0.0024,  0.0217, -0.6765,
+        -0.1901, -0.6474], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.859930694103241	 Accuracy: 0.78125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3580,  0.1861, -0.0156,  0.0385, -0.0024,  0.0217, -0.6879,
+        -0.1946, -0.6566], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [48/100]	 Loss: 0.9606640675129035	 Accuracy: 0.7001201923076923
+Epoch: 49=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3580,  0.1861, -0.0156,  0.0385, -0.0024,  0.0217, -0.6879,
+        -0.1946, -0.6566], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0654888153076172	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3635,  0.1920, -0.0156,  0.0385, -0.0024,  0.0217, -0.6990,
+        -0.1987, -0.6659], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [49/100]	 Loss: 0.9538153295333569	 Accuracy: 0.7005208333333334
+Epoch: 50=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3635,  0.1920, -0.0156,  0.0385, -0.0024,  0.0217, -0.6990,
+        -0.1987, -0.6659], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.1247318983078003	 Accuracy: 0.609375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3700,  0.1983, -0.0156,  0.0385, -0.0024,  0.0217, -0.7108,
+        -0.2028, -0.6752], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [50/100]	 Loss: 0.947488913933436	 Accuracy: 0.702323717948718
+Epoch: 51=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3700,  0.1983, -0.0156,  0.0385, -0.0024,  0.0217, -0.7108,
+        -0.2028, -0.6752], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9016624093055725	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3754,  0.2044, -0.0156,  0.0385, -0.0024,  0.0217, -0.7222,
+        -0.2068, -0.6844], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [51/100]	 Loss: 0.9412080515653659	 Accuracy: 0.7025240384615384
+Epoch: 52=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3754,  0.2044, -0.0156,  0.0385, -0.0024,  0.0217, -0.7222,
+        -0.2068, -0.6844], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9874700903892517	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3819,  0.2108, -0.0156,  0.0385, -0.0024,  0.0217, -0.7337,
+        -0.2108, -0.6933], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [52/100]	 Loss: 0.9351782477819003	 Accuracy: 0.703926282051282
+Epoch: 53=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3819,  0.2108, -0.0156,  0.0385, -0.0024,  0.0217, -0.7337,
+        -0.2108, -0.6933], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0245989561080933	 Accuracy: 0.609375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3878,  0.2168, -0.0156,  0.0385, -0.0024,  0.0217, -0.7446,
+        -0.2148, -0.7029], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [53/100]	 Loss: 0.9296992451716692	 Accuracy: 0.7049278846153846
+Epoch: 54=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3878,  0.2168, -0.0156,  0.0385, -0.0024,  0.0217, -0.7446,
+        -0.2148, -0.7029], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9014524817466736	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3939,  0.2237, -0.0156,  0.0385, -0.0024,  0.0217, -0.7553,
+        -0.2176, -0.7114], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [54/100]	 Loss: 0.9246423206268213	 Accuracy: 0.7047275641025641
+Epoch: 55=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3939,  0.2237, -0.0156,  0.0385, -0.0024,  0.0217, -0.7553,
+        -0.2176, -0.7114], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9028456807136536	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3996,  0.2296, -0.0156,  0.0385, -0.0024,  0.0217, -0.7667,
+        -0.2223, -0.7207], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [55/100]	 Loss: 0.9192448067359436	 Accuracy: 0.7055288461538461
+Epoch: 56=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.3996,  0.2296, -0.0156,  0.0385, -0.0024,  0.0217, -0.7667,
+        -0.2223, -0.7207], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9500382542610168	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4052,  0.2357, -0.0156,  0.0385, -0.0024,  0.0217, -0.7775,
+        -0.2267, -0.7295], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [56/100]	 Loss: 0.9136239015139066	 Accuracy: 0.7067307692307693
+Epoch: 57=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4052,  0.2357, -0.0156,  0.0385, -0.0024,  0.0217, -0.7775,
+        -0.2267, -0.7295], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0370573997497559	 Accuracy: 0.625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4099,  0.2413, -0.0156,  0.0385, -0.0024,  0.0217, -0.7887,
+        -0.2309, -0.7383], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [57/100]	 Loss: 0.9093958246402252	 Accuracy: 0.7063301282051282
+Epoch: 58=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4099,  0.2413, -0.0156,  0.0385, -0.0024,  0.0217, -0.7887,
+        -0.2309, -0.7383], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7519615292549133	 Accuracy: 0.8125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4163,  0.2472, -0.0156,  0.0385, -0.0024,  0.0217, -0.8000,
+        -0.2347, -0.7476], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [58/100]	 Loss: 0.9044990302660526	 Accuracy: 0.7077323717948718
+Epoch: 59=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4163,  0.2472, -0.0156,  0.0385, -0.0024,  0.0217, -0.8000,
+        -0.2347, -0.7476], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0487473011016846	 Accuracy: 0.546875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4218,  0.2534, -0.0156,  0.0385, -0.0024,  0.0217, -0.8108,
+        -0.2394, -0.7563], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [59/100]	 Loss: 0.8988645244867374	 Accuracy: 0.7093349358974359
+Epoch: 60=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4218,  0.2534, -0.0156,  0.0385, -0.0024,  0.0217, -0.8108,
+        -0.2394, -0.7563], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8905313611030579	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4268,  0.2593, -0.0156,  0.0385, -0.0024,  0.0217, -0.8221,
+        -0.2430, -0.7653], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [60/100]	 Loss: 0.8943692850760925	 Accuracy: 0.7095352564102564
+Epoch: 61=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4268,  0.2593, -0.0156,  0.0385, -0.0024,  0.0217, -0.8221,
+        -0.2430, -0.7653], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9592625498771667	 Accuracy: 0.671875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4330,  0.2658, -0.0156,  0.0385, -0.0024,  0.0217, -0.8329,
+        -0.2476, -0.7741], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [61/100]	 Loss: 0.889404276242623	 Accuracy: 0.7093349358974359
+Epoch: 62=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4330,  0.2658, -0.0156,  0.0385, -0.0024,  0.0217, -0.8329,
+        -0.2476, -0.7741], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8585413098335266	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4378,  0.2710, -0.0156,  0.0385, -0.0024,  0.0217, -0.8434,
+        -0.2511, -0.7831], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [62/100]	 Loss: 0.8858372263419323	 Accuracy: 0.7095352564102564
+Epoch: 63=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4378,  0.2710, -0.0156,  0.0385, -0.0024,  0.0217, -0.8434,
+        -0.2511, -0.7831], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0060157775878906	 Accuracy: 0.625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4427,  0.2768, -0.0156,  0.0385, -0.0024,  0.0217, -0.8547,
+        -0.2552, -0.7918], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [63/100]	 Loss: 0.8810482712892386	 Accuracy: 0.7115384615384616
+Epoch: 64=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4427,  0.2768, -0.0156,  0.0385, -0.0024,  0.0217, -0.8547,
+        -0.2552, -0.7918], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8816307783126831	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4479,  0.2832, -0.0156,  0.0385, -0.0024,  0.0217, -0.8654,
+        -0.2582, -0.8006], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [64/100]	 Loss: 0.8780203744387015	 Accuracy: 0.7107371794871795
+Epoch: 65=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4479,  0.2832, -0.0156,  0.0385, -0.0024,  0.0217, -0.8654,
+        -0.2582, -0.8006], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.882359504699707	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4542,  0.2895, -0.0156,  0.0385, -0.0024,  0.0217, -0.8756,
+        -0.2629, -0.8094], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [65/100]	 Loss: 0.8742999870043534	 Accuracy: 0.7113381410256411
+Epoch: 66=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4542,  0.2895, -0.0156,  0.0385, -0.0024,  0.0217, -0.8756,
+        -0.2629, -0.8094], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8511530160903931	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4592,  0.2956, -0.0156,  0.0385, -0.0024,  0.0217, -0.8864,
+        -0.2661, -0.8183], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [66/100]	 Loss: 0.8692847283986899	 Accuracy: 0.7123397435897436
+Epoch: 67=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4592,  0.2956, -0.0156,  0.0385, -0.0024,  0.0217, -0.8864,
+        -0.2661, -0.8183], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9006011486053467	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4645,  0.3010, -0.0156,  0.0385, -0.0024,  0.0217, -0.8975,
+        -0.2700, -0.8275], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [67/100]	 Loss: 0.8659638953514588	 Accuracy: 0.7137419871794872
+Epoch: 68=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4645,  0.3010, -0.0156,  0.0385, -0.0024,  0.0217, -0.8975,
+        -0.2700, -0.8275], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8101904988288879	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4696,  0.3069, -0.0156,  0.0385, -0.0024,  0.0217, -0.9086,
+        -0.2748, -0.8362], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [68/100]	 Loss: 0.8631087266481839	 Accuracy: 0.7133413461538461
+Epoch: 69=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4696,  0.3069, -0.0156,  0.0385, -0.0024,  0.0217, -0.9086,
+        -0.2748, -0.8362], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8946091532707214	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4746,  0.3132, -0.0156,  0.0385, -0.0024,  0.0217, -0.9190,
+        -0.2778, -0.8447], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [69/100]	 Loss: 0.8594032029310862	 Accuracy: 0.7145432692307693
+Epoch: 70=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4746,  0.3132, -0.0156,  0.0385, -0.0024,  0.0217, -0.9190,
+        -0.2778, -0.8447], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8723301291465759	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4795,  0.3186, -0.0156,  0.0385, -0.0024,  0.0217, -0.9293,
+        -0.2818, -0.8535], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [70/100]	 Loss: 0.8556266388831995	 Accuracy: 0.7149439102564102
+Epoch: 71=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4795,  0.3186, -0.0156,  0.0385, -0.0024,  0.0217, -0.9293,
+        -0.2818, -0.8535], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9772346019744873	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4843,  0.3238, -0.0156,  0.0385, -0.0024,  0.0217, -0.9399,
+        -0.2855, -0.8625], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [71/100]	 Loss: 0.8521490005346445	 Accuracy: 0.7153445512820513
+Epoch: 72=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4843,  0.3238, -0.0156,  0.0385, -0.0024,  0.0217, -0.9399,
+        -0.2855, -0.8625], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8196312189102173	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4893,  0.3308, -0.0156,  0.0385, -0.0024,  0.0217, -0.9504,
+        -0.2892, -0.8717], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [72/100]	 Loss: 0.8491806945739648	 Accuracy: 0.7165464743589743
+Epoch: 73=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4893,  0.3308, -0.0156,  0.0385, -0.0024,  0.0217, -0.9504,
+        -0.2892, -0.8717], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0340814590454102	 Accuracy: 0.65625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4939,  0.3365, -0.0156,  0.0385, -0.0024,  0.0217, -0.9606,
+        -0.2930, -0.8798], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [73/100]	 Loss: 0.8454660910826463	 Accuracy: 0.7171474358974359
+Epoch: 74=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4939,  0.3365, -0.0156,  0.0385, -0.0024,  0.0217, -0.9606,
+        -0.2930, -0.8798], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7525720596313477	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4980,  0.3424, -0.0156,  0.0385, -0.0024,  0.0217, -0.9715,
+        -0.2973, -0.8887], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [74/100]	 Loss: 0.8430405595363715	 Accuracy: 0.7175480769230769
+Epoch: 75=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.4980,  0.3424, -0.0156,  0.0385, -0.0024,  0.0217, -0.9715,
+        -0.2973, -0.8887], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8342914581298828	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5032,  0.3484, -0.0156,  0.0385, -0.0024,  0.0217, -0.9813,
+        -0.3006, -0.8973], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [75/100]	 Loss: 0.8403162023960016	 Accuracy: 0.717948717948718
+Epoch: 76=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5032,  0.3484, -0.0156,  0.0385, -0.0024,  0.0217, -0.9813,
+        -0.3006, -0.8973], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.6957663297653198	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5080,  0.3545, -0.0156,  0.0385, -0.0024,  0.0217, -0.9922,
+        -0.3048, -0.9060], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [76/100]	 Loss: 0.8367126813301673	 Accuracy: 0.719551282051282
+Epoch: 77=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5080,  0.3545, -0.0156,  0.0385, -0.0024,  0.0217, -0.9922,
+        -0.3048, -0.9060], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9673044681549072	 Accuracy: 0.625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5127,  0.3600, -0.0156,  0.0385, -0.0024,  0.0217, -1.0026,
+        -0.3079, -0.9149], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [77/100]	 Loss: 0.8332447638878455	 Accuracy: 0.7197516025641025
+Epoch: 78=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5127,  0.3600, -0.0156,  0.0385, -0.0024,  0.0217, -1.0026,
+        -0.3079, -0.9149], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8342479467391968	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5169,  0.3652, -0.0156,  0.0385, -0.0024,  0.0217, -1.0133,
+        -0.3128, -0.9239], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [78/100]	 Loss: 0.830293915210626	 Accuracy: 0.7201522435897436
+Epoch: 79=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5169,  0.3652, -0.0156,  0.0385, -0.0024,  0.0217, -1.0133,
+        -0.3128, -0.9239], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0910333395004272	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5209,  0.3709, -0.0156,  0.0385, -0.0024,  0.0217, -1.0227,
+        -0.3160, -0.9321], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [79/100]	 Loss: 0.8282352494887817	 Accuracy: 0.7213541666666666
+Epoch: 80=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5209,  0.3709, -0.0156,  0.0385, -0.0024,  0.0217, -1.0227,
+        -0.3160, -0.9321], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7687331438064575	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5255,  0.3768, -0.0156,  0.0385, -0.0024,  0.0217, -1.0332,
+        -0.3185, -0.9411], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [80/100]	 Loss: 0.8252803660356082	 Accuracy: 0.7205528846153846
+Epoch: 81=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5255,  0.3768, -0.0156,  0.0385, -0.0024,  0.0217, -1.0332,
+        -0.3185, -0.9411], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9032751321792603	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5296,  0.3822, -0.0156,  0.0385, -0.0024,  0.0217, -1.0434,
+        -0.3233, -0.9496], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [81/100]	 Loss: 0.8230221982185657	 Accuracy: 0.7209535256410257
+Epoch: 82=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5296,  0.3822, -0.0156,  0.0385, -0.0024,  0.0217, -1.0434,
+        -0.3233, -0.9496], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7585433125495911	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5348,  0.3882, -0.0156,  0.0385, -0.0024,  0.0217, -1.0533,
+        -0.3263, -0.9587], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [82/100]	 Loss: 0.819748084514569	 Accuracy: 0.7217548076923077
+Epoch: 83=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5348,  0.3882, -0.0156,  0.0385, -0.0024,  0.0217, -1.0533,
+        -0.3263, -0.9587], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8141582608222961	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5384,  0.3939, -0.0156,  0.0385, -0.0024,  0.0217, -1.0637,
+        -0.3306, -0.9676], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [83/100]	 Loss: 0.8167895216208237	 Accuracy: 0.7215544871794872
+Epoch: 84=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5384,  0.3939, -0.0156,  0.0385, -0.0024,  0.0217, -1.0637,
+        -0.3306, -0.9676], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7740233540534973	 Accuracy: 0.84375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5429,  0.3994, -0.0156,  0.0385, -0.0024,  0.0217, -1.0735,
+        -0.3334, -0.9762], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [84/100]	 Loss: 0.8152601451445849	 Accuracy: 0.7227564102564102
+Epoch: 85=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5429,  0.3994, -0.0156,  0.0385, -0.0024,  0.0217, -1.0735,
+        -0.3334, -0.9762], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8915610313415527	 Accuracy: 0.6875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5471,  0.4052, -0.0156,  0.0385, -0.0024,  0.0217, -1.0836,
+        -0.3369, -0.9846], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [85/100]	 Loss: 0.8127418794693091	 Accuracy: 0.7243589743589743
+Epoch: 86=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5471,  0.4052, -0.0156,  0.0385, -0.0024,  0.0217, -1.0836,
+        -0.3369, -0.9846], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9011476635932922	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5519,  0.4109, -0.0156,  0.0385, -0.0024,  0.0217, -1.0937,
+        -0.3400, -0.9932], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [86/100]	 Loss: 0.8099996416996686	 Accuracy: 0.7245592948717948
+Epoch: 87=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5519,  0.4109, -0.0156,  0.0385, -0.0024,  0.0217, -1.0937,
+        -0.3400, -0.9932], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7432853579521179	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5557,  0.4165, -0.0156,  0.0385, -0.0024,  0.0217, -1.1031,
+        -0.3433, -1.0018], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [87/100]	 Loss: 0.8087507860782819	 Accuracy: 0.7239583333333334
+Epoch: 88=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5557,  0.4165, -0.0156,  0.0385, -0.0024,  0.0217, -1.1031,
+        -0.3433, -1.0018], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 1.0002185106277466	 Accuracy: 0.625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5594,  0.4222, -0.0156,  0.0385, -0.0024,  0.0217, -1.1135,
+        -0.3470, -1.0104], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [88/100]	 Loss: 0.8060686878668957	 Accuracy: 0.7237580128205128
+Epoch: 89=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5594,  0.4222, -0.0156,  0.0385, -0.0024,  0.0217, -1.1135,
+        -0.3470, -1.0104], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7997816205024719	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5629,  0.4265, -0.0156,  0.0385, -0.0024,  0.0217, -1.1234,
+        -0.3508, -1.0191], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [89/100]	 Loss: 0.8034489185382159	 Accuracy: 0.7253605769230769
+Epoch: 90=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5629,  0.4265, -0.0156,  0.0385, -0.0024,  0.0217, -1.1234,
+        -0.3508, -1.0191], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8759763836860657	 Accuracy: 0.703125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5686,  0.4341, -0.0156,  0.0385, -0.0024,  0.0217, -1.1323,
+        -0.3533, -1.0278], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [90/100]	 Loss: 0.8017209905844468	 Accuracy: 0.7243589743589743
+Epoch: 91=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5686,  0.4341, -0.0156,  0.0385, -0.0024,  0.0217, -1.1323,
+        -0.3533, -1.0278], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7846542000770569	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5714,  0.4387, -0.0156,  0.0385, -0.0024,  0.0217, -1.1424,
+        -0.3570, -1.0371], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [91/100]	 Loss: 0.7992393473784128	 Accuracy: 0.7245592948717948
+Epoch: 92=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5714,  0.4387, -0.0156,  0.0385, -0.0024,  0.0217, -1.1424,
+        -0.3570, -1.0371], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7042865753173828	 Accuracy: 0.8125
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5758,  0.4442, -0.0156,  0.0385, -0.0024,  0.0217, -1.1518,
+        -0.3611, -1.0449], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [92/100]	 Loss: 0.7972395840363625	 Accuracy: 0.7237580128205128
+Epoch: 93=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5758,  0.4442, -0.0156,  0.0385, -0.0024,  0.0217, -1.1518,
+        -0.3611, -1.0449], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.716827929019928	 Accuracy: 0.765625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5797,  0.4490, -0.0156,  0.0385, -0.0024,  0.0217, -1.1613,
+        -0.3639, -1.0530], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [93/100]	 Loss: 0.7956527761923962	 Accuracy: 0.7249599358974359
+Epoch: 94=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5797,  0.4490, -0.0156,  0.0385, -0.0024,  0.0217, -1.1613,
+        -0.3639, -1.0530], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8198996782302856	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5833,  0.4541, -0.0156,  0.0385, -0.0024,  0.0217, -1.1700,
+        -0.3675, -1.0617], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [94/100]	 Loss: 0.7929585996346596	 Accuracy: 0.7255608974358975
+Epoch: 95=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5833,  0.4541, -0.0156,  0.0385, -0.0024,  0.0217, -1.1700,
+        -0.3675, -1.0617], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8024769425392151	 Accuracy: 0.71875
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5880,  0.4608, -0.0156,  0.0385, -0.0024,  0.0217, -1.1806,
+        -0.3707, -1.0701], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [95/100]	 Loss: 0.7913716557698373	 Accuracy: 0.7253605769230769
+Epoch: 96=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5880,  0.4608, -0.0156,  0.0385, -0.0024,  0.0217, -1.1806,
+        -0.3707, -1.0701], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.7726160883903503	 Accuracy: 0.75
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5922,  0.4666, -0.0156,  0.0385, -0.0024,  0.0217, -1.1886,
+        -0.3742, -1.0784], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [96/100]	 Loss: 0.7895677670454367	 Accuracy: 0.7255608974358975
+Epoch: 97=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5922,  0.4666, -0.0156,  0.0385, -0.0024,  0.0217, -1.1886,
+        -0.3742, -1.0784], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9386503100395203	 Accuracy: 0.640625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5961,  0.4721, -0.0156,  0.0385, -0.0024,  0.0217, -1.1977,
+        -0.3767, -1.0869], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [97/100]	 Loss: 0.7875268665643839	 Accuracy: 0.725761217948718
+Epoch: 98=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5961,  0.4721, -0.0156,  0.0385, -0.0024,  0.0217, -1.1977,
+        -0.3767, -1.0869], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.9200461506843567	 Accuracy: 0.625
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5993,  0.4770, -0.0156,  0.0385, -0.0024,  0.0217, -1.2076,
+        -0.3799, -1.0951], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [98/100]	 Loss: 0.7853825153448643	 Accuracy: 0.7259615384615384
+Epoch: 99=====>>
+### Grad before Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.5993,  0.4770, -0.0156,  0.0385, -0.0024,  0.0217, -1.2076,
+        -0.3799, -1.0951], device='cuda:0', grad_fn=<SliceBackward>)
+Step [0/78]	 Loss: 0.8794227242469788	 Accuracy: 0.734375
+### Grad after Backprop ####
+tensor([-0.0153, -0.0147, -0.0099,  0.0330,  0.0306,  0.0215, -0.0135],
+       device='cuda:0')
+tensor([ 0.0379,  0.6040,  0.4832, -0.0156,  0.0385, -0.0024,  0.0217, -1.2160,
+        -0.3823, -1.1033], device='cuda:0', grad_fn=<SliceBackward>)
+Summary
+Epoch [99/100]	 Loss: 0.7834603893451202	 Accuracy: 0.7263621794871795
+[FINAL]	 Loss: 0.7969041042327881	 Accuracy: 0.727875
