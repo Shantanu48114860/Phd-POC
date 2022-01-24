@@ -1,0 +1,64 @@
+
+srun -p gpu --gpus=1 --pty --account=butler --qos=butler -u bash -i
+
+srun -p gpu --nodes=1 --gpus=geforce:2 --time=01:00:00  --pty --account=butler --qos=butler -u bash -i 
+
+srun -p gpu --nodes=1 --gpus=geforce:2 --cpu-per-task=4 --mem=14gb --time=01:00:00  --pty --account=butler --qos=butler -u bash -i
+
+srun --account=butler --qos=butler -p gpu --nodes=1 --cpus-per-task=4 --mem=14gb --gpus=geforce:1 --time=48:00:00 --pty -u bash -i
+
+srun --account=butler --qos=butler --nodes=1 --cpus-per-task=4 --time=8:00:00 --pty -u bash -i
+
+
+[shantanughosh@login4 ~]$ vim .bashrc
+[shantanughosh@login4 ~]$ source .bashrc
+[shantanughosh@login4 ~]$ alias 
+
+
+source miniconda3/bin/activate
+
+
+tmux commands
+ctrl B shift 5 -> vertical
+ctrl B shift “ -> horizontal
+ctrl B space - orientation
+
+
+ctrl B c -> new window
+
+ctrl B i ->  window i
+
+ctrl B p->previous window 
+ctrl B n->next window
+
+Ctrl B D -> get out of tmux (it won’t kill the session)
+ ctrl D -> exit or kill tmux session
+ctrl b page up -> scroll up
+
+tmux ls -> list tmux sessions
+
+tmux a -t 0 -> go to tmux session with id 0
+
+
+call gpu 1h and then run run myjupyter
+
+Note the login<id> of hypergator where the tmux session is. Next time login ssh login1
+
+
+Conda_commands:
+=======================
+source miniconda3/bin/activate
+
+conda list
+
+conda create --name mnist_tensorboard python=3.7
+
+shantanughosh$ conda activate mnist_tensorboard
+
+conda env export --no-builds > environment.yml
+
+conda env create -f em_env.yaml
+
+jupyter_client
+
+shantanughosh@login3

@@ -1,0 +1,40 @@
+# Single Job
+# interact
+
+interact -p GPU-shared --gres=gpu:v100-32:1 -t 8:00:00
+interact -p GPU-shared --gres=gpu:v100-16:1 -t 8:00:00
+
+interact -p RM-shared  -N 1 -t 8:00:00 --ntasks-per-node=10
+interact -p RM-shared  -N 1 -t 8:00:00 --ntasks-per-node=10
+
+# Batcomputer
+interact -A bio170034p -p BatComputer --gres=gpu:rtx5000:1 -N 1 -t 8:00:00 --ntasks-per-node=4
+
+# Jobs
+sbatch -A asc170022p -p GPU-shared --gres=gpu:v100-32:1 -t 48:00:00 run_classifier.sh
+sbatch -A asc170022p -p GPU --gres=gpu:v100-32:8 -t 48:00:00 run_classifier.sh
+sbatch -A asc170022p -p GPU-small --gres=gpu:8 -t 48:00:00 run_2.sh
+sbatch -p GPU-shared --gres=gpu:4 --ntasks-per-node 20 -N 1 -t 48:00:00 run_2.sh
+
+
+# Batcomputer
+sbatch -A bio170034p -p BatComputer --gres=gpu:rtx6000:1 -N 1 -t 48:00:00 run_classifier.sh
+
+sbatch -A bio170034p -p BatComputer --gres=gpu:rtx5000:1 -N 1 -t 48:00:00 run_classifier.sh
+
+# Multiple Gpus
+sbatch -A bio170034p -p BatComputer --gres=gpu:rtx5000:4 --ntasks-per-node 4 -N 1 -t 48:00:00 run_2.sh
+sbatch -A bio170034p -p BatComputer --gres=gpu:rtx5000:4 --ntasks-per-node 4 -N 1 -t 48:00:00 run_2.sh
+
+sbatch -p GPU-shared --gres=gpu:4 --ntasks-per-node 20 -N 1 -t 48:00:00 run_2.sh
+
+
+
+# other links
+squeue --partition=BatComputer
+
+sinfo --partition=BatComputer
+
+**squeue --partition=BatComputer**
+
+**sinfo --partition=BatComputer**

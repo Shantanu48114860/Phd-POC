@@ -1,0 +1,28 @@
+"~/.bashrc" 28L, 1090C
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias gpu1h="srun -p gpu --nodes=1 --gpus=geforce:1 --cpus-per-task=4 --mem=14gb --time=01:00:00  --pty --account=butler --qos=butler -u bash -i"
+alias gpu12h="srun -p gpu --nodes=1 --gpus=geforce:1 --cpus-per-task=4 --mem=14gb --time=12:00:00  --pty --account=butler --qos=butler -u bash -i"
+alias gpu12h_2="srun -p gpu --nodes=1 --gpus=geforce:2 --cpus-per-task=4 --mem=14gb --time=12:00:00  --pty --account=butler --qos=butler -u bash -i"
+module load tmux
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/shantanughosh/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/shantanughosh/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/shantanughosh/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/shantanughosh/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<ls 
